@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Table</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <!-- table -->
+    <div class="table">
+      <table>
+        <tr>
+          <th>
+            <input id="userfirstname" type="text" placeholder="FirstName" />
+          </th>
+          <th>
+            <input id="userlastname" type="text" placeholder="LastName" />
+          </th>
+
+          <th><input id="useremial" type="email" placeholder="UserEmail" /></th>
+          <th>
+            <button id="addUser">AddUser</button>
+          </th>
+          <button id="getData">GetUser</button>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td>LasttName</td>
+          <td>UserEmail</td>
+          <td>UserId</td>
+        </tr>
+        <tbody id="data-show"></tbody>
+      </table>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
